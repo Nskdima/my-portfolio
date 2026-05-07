@@ -1,7 +1,7 @@
 - title: "Adventure Entrance"
   description: "Проект, Являюшийся игрой на языке Python, разработанной в рамках учебного курса. Игра представляет собой Приключение в подъезде, где игроку предстоит исследовать различные комнаты."
   technologies:
-    - Неизвестно
+    - Python
   github: "https://github.com/Nskdima/Adventure-entrancee"
 
 - title: "izmirashela-page"
@@ -10,3 +10,10 @@
     - HTML
     - CSS
   github: "https://github.com/izmirashela/izmirashela-page"
+
+- title: "My Portfolio"
+  description: "Мой персональный сайт-портфолио, разработанный с использованием Jekyll и Tailwind CSS. Сайт представляет собой минималистичный дизайн, демонстрирующий мои проекты, навыки и информацию обо мне."
+  technologies:
+    - Jekyll
+    - Tailwind CSS
+  github: "https://github.com/Nskdima/my-portfolio"
