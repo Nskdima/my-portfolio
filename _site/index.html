@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная | </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white">
+  <!-- Header -->
+  <header class="sticky top-0 z-20 border-b border-slate-700/50 bg-slate-950/80 backdrop-blur-sm py-4 px-4 shadow-2xl shadow-slate-950/20">
+    <div class="max-w-6xl mx-auto flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <div>
+        <h1 class="text-xl font-semibold tracking-wide"></h1>
+        <p class="text-sm text-slate-400 mt-1">Минималистичное темное портфолио</p>
+      </div>
+      <nav>
+        <ul class="flex flex-wrap justify-center gap-5 text-sm font-medium text-slate-300">
+          <li><a href="/" class="transition hover:text-cyan-300">Главная</a></li>
+          <li><a href="/about" class="transition hover:text-cyan-300">Обо мне</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="px-4 py-8">
+    <div class="min-h-screen rounded-3xl border border-white/5 bg-slate-950/70 p-6 shadow-2xl shadow-slate-950/40 backdrop-blur-sm">
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-cyan-700/10 via-slate-900/60 to-slate-950/90 px-6 py-16 text-center shadow-xl shadow-cyan-500/10">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.22),_transparent_35%)]"></div>
+    <div class="relative z-10">
+
+      <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-4">Привет, я Nskdima</h1>
+      <p class="mx-auto max-w-2xl text-lg text-slate-300 sm:text-xl">Разработчик, администратор и энтузиаст компьютерного железа. Добро пожаловать на мой сайт-портфолио.</p>
+      <div class="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+        <a href="/about" class="inline-flex items-center justify-center rounded-full bg-cyan-500 px-8 py-3 text-sm font-semibold uppercase tracking-wide text-slate-950 transition hover:bg-cyan-400">
+          Узнать обо мне
+        </a>
+        <a href="#projects" class="inline-flex items-center justify-center rounded-full border border-cyan-500/30 bg-white/5 px-8 py-3 text-sm font-semibold text-cyan-200 transition hover:border-cyan-300/60 hover:bg-white/10">
+          Мои проекты
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="mt-16 px-2 py-4">
+    <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold text-white">Мои Проекты</h2>
+        <p class="mt-2 max-w-xl text-sm text-slate-400">Проекты, над которыми я работал, демонстрируют мои навыки в веб-разработке, администрировании и дизайне.</p>
+      </div>
+    </div>
+
+    <div class="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      
+      <div class="group rounded-3xl border border-white/10 bg-slate-900/90 p-6 shadow-2xl shadow-slate-950/40 transition duration-300 hover:-translate-y-1 hover:border-cyan-500/40 hover:bg-slate-900">
+        <div class="mb-4 flex items-center justify-between">
+          <span class="inline-flex rounded-full bg-cyan-500/10 px-3 py-1 text-sm font-medium text-cyan-200">Проект</span>
+          <span class="text-xs uppercase tracking-[0.2em] text-slate-500">#1</span>
+        </div>
+        <h3 class="text-2xl font-semibold text-white mb-3">Adventure Entrance</h3>
+        <p class="text-slate-300 mb-5 leading-relaxed">Проект, Являюшийся игрой на языке Python, разработанной в рамках учебного курса. Игра представляет собой Приключение в подъезде, где игроку предстоит исследовать различные комнаты.</p>
+        <div class="mb-5 flex flex-wrap gap-2">
+          
+          <span class="rounded-full border border-slate-700/80 bg-slate-950/70 px-3 py-1 text-xs font-medium text-slate-200">Неизвестно</span>
+          
+        </div>
+        <a href="https://github.com/Nskdima/Adventure-entrancee" target="_blank" class="inline-flex items-center justify-center rounded-full bg-cyan-500 px-5 py-3 text-sm font-semibold uppercase tracking-[0.15em] text-slate-950 transition hover:bg-cyan-400">
+          GitHub
+        </a>
+      </div>
+      
+      <div class="group rounded-3xl border border-white/10 bg-slate-900/90 p-6 shadow-2xl shadow-slate-950/40 transition duration-300 hover:-translate-y-1 hover:border-cyan-500/40 hover:bg-slate-900">
+        <div class="mb-4 flex items-center justify-between">
+          <span class="inline-flex rounded-full bg-cyan-500/10 px-3 py-1 text-sm font-medium text-cyan-200">Проект</span>
+          <span class="text-xs uppercase tracking-[0.2em] text-slate-500">#2</span>
+        </div>
+        <h3 class="text-2xl font-semibold text-white mb-3">izmirashela-page</h3>
+        <p class="text-slate-300 mb-5 leading-relaxed">Веб-сайт питомника собак 'Из Мирашела', специализирующегося на разведении пород кеесхонд и вольфшпиц. Сайт включает разделы о собаках, пометах, статьях, истории питомника, достижениях и контактах.</p>
+        <div class="mb-5 flex flex-wrap gap-2">
+          
+          <span class="rounded-full border border-slate-700/80 bg-slate-950/70 px-3 py-1 text-xs font-medium text-slate-200">HTML</span>
+          
+          <span class="rounded-full border border-slate-700/80 bg-slate-950/70 px-3 py-1 text-xs font-medium text-slate-200">CSS</span>
+          
+        </div>
+        <a href="https://github.com/izmirashela/izmirashela-page" target="_blank" class="inline-flex items-center justify-center rounded-full bg-cyan-500 px-5 py-3 text-sm font-semibold uppercase tracking-[0.15em] text-slate-950 transition hover:bg-cyan-400">
+          GitHub
+        </a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- About Link -->
+  <section class="mt-16 text-center">
+    <a href="/about" class="inline-flex items-center justify-center rounded-full border border-cyan-500/30 bg-white/5 px-8 py-4 text-sm font-semibold uppercase tracking-[0.15em] text-cyan-200 transition hover:border-cyan-300/60 hover:bg-white/10">
+      Узнать больше обо мне
+    </a>
+  </section>
+</div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-700/50 bg-slate-950/80 py-8 px-4 text-slate-400">
+    <div class="max-w-6xl mx-auto text-center">
+      <p class="text-sm">&copy; 2026 . Все права защищены.</p>
+      <div class="mt-3">
+        <a href="https://github.com/Nskdima" target="_blank" class="text-sm text-cyan-300 hover:text-white transition">GitHub</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

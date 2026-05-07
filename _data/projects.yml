@@ -1,0 +1,12 @@
+- title: "Adventure Entrance"
+  description: "Проект, Являюшийся игрой на языке Python, разработанной в рамках учебного курса. Игра представляет собой Приключение в подъезде, где игроку предстоит исследовать различные комнаты."
+  technologies:
+    - Неизвестно
+  github: "https://github.com/Nskdima/Adventure-entrancee"
+
+- title: "izmirashela-page"
+  description: "Веб-сайт питомника собак 'Из Мирашела', специализирующегося на разведении пород кеесхонд и вольфшпиц. Сайт включает разделы о собаках, пометах, статьях, истории питомника, достижениях и контактах."
+  technologies:
+    - HTML
+    - CSS
+  github: "https://github.com/izmirashela/izmirashela-page"
