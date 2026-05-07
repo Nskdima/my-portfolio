@@ -10,6 +10,7 @@
     - HTML
     - CSS
   github: "https://github.com/izmirashela/izmirashela-page"
+  demo: "https://кеесхонд.рф"
 
 - title: "My Portfolio"
   description: "Мой персональный сайт-портфолио, разработанный с использованием Jekyll и Tailwind CSS. Сайт представляет собой минималистичный дизайн, демонстрирующий мои проекты, навыки и информацию обо мне."

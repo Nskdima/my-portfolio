@@ -45,9 +45,16 @@ title: Главная
           <span class="rounded-full border border-slate-700/80 bg-slate-950/70 px-3 py-1 text-xs font-medium text-slate-200">{{ tech }}</span>
           {% endfor %}
         </div>
-        <a href="{{ project.github }}" target="_blank" class="inline-flex items-center justify-center rounded-full bg-cyan-500 px-5 py-3 text-sm font-semibold uppercase tracking-[0.15em] text-slate-950 transition hover:bg-cyan-400">
-          GitHub
-        </a>
+        <div class="flex flex-wrap gap-3">
+          <a href="{{ project.github }}" target="_blank" class="inline-flex items-center justify-center rounded-full bg-cyan-500 px-5 py-3 text-sm font-semibold uppercase tracking-[0.15em] text-slate-950 transition hover:bg-cyan-400">
+            GitHub
+          </a>
+          {% if project.demo %}
+          <a href="{{ project.demo }}" target="_blank" class="inline-flex items-center justify-center rounded-full border border-cyan-500/30 bg-white/5 px-5 py-3 text-sm font-semibold uppercase tracking-[0.15em] text-cyan-200 transition hover:border-cyan-300/60 hover:bg-white/10">
+            Live Demo
+          </a>
+          {% endif %}
+        </div>
       </div>
       {% endfor %}
     </div>
