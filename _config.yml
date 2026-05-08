@@ -21,7 +21,7 @@ title: ""
 email: ""
 description: "" # this will be used in your feed and in the meta description tag of your index.html page
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/my-portfolio" # the subpath of your site, e.g. /blog
 url: "nskdima.github.io/my-portfolio" # the base hostname & protocol for your site, e.g. http://example.com 
 github_username:  Nskdima
 
